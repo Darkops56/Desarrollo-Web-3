@@ -1,0 +1,15 @@
+ul#marg{
+    margin-right: 1.6cm;
+}
+.edit{
+    text-decoration: none;
+    color: aliceblue;
+    background-color: rgba(78, 93, 108, 1);
+    border-radius: 50vh;
+    padding: 0.7rem;
+    transform: none;
+    transition: none;
+}
+#color{
+    color: aliceblue;
+}

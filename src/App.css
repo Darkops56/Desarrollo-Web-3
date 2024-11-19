@@ -1,0 +1,77 @@
+#root {
+  text-align: center;
+}
+body{
+  background-color: rgba(0, 0, 0, 0.39);
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+div#root{
+  width: 700vw;
+}
+button.btn{
+  border-radius: 50vh;
+}
+
+h1.TittleMainApp{
+  padding-bottom: 2cm;
+}
+a.list-group-item.list-group-item-action.disabled{
+  text-align: start;
+  margin: 2vh;
+  border-radius: 1vh;
+  background-color: rgba(0, 0, 0, 0.445);
+  color: rgb(180, 169, 169);
+  margin-right: 0;
+}
+div.group-btn-list{
+  display: flex;
+  align-items: center;
+}
+button#button-addon3{
+  display: flex;
+  align-content: center;
+  align-items: center;
+  border-radius: 1vw;
+  width: 3vw;
+  height: 4vh;
+}
+#div-general{
+  min-width: 320px;
+  min-height: 100vh;
+}
+.btn{
+  padding: 0.5rem;
+}
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
