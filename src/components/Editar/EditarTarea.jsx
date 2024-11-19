@@ -3,11 +3,8 @@ import { useParams } from 'react-router-dom';
 import { TareasContext } from '../../context/Tareas'; 
 
 const EditarTarea = () => {
-    
     const { id } = useParams();
-
     const { tareas, editarTarea } = useContext(TareasContext);
-
     const [tareaEditada, setTareaEditada] = useState({ nombre: '', descripcion: '' });
 
     useEffect(() => {
